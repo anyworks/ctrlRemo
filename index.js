@@ -137,7 +137,7 @@ function postImpl(url,data){
   console.log(data);
   return new Promise((resolve,reject)=>{
     var hash = encode().value(url);
-      nrp({     //### need to change### Default behavior is as dummy mode(using cache file).
+      rp({     //### need to change### Default behavior is as dummy mode(using cache file).
         url : url,
         method: "post",
         headers : headers,

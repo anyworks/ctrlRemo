@@ -12,7 +12,7 @@ describe('appliances', function() {
     index.generateIRList({},{},done);
   });
 
-  xit('delayed request', function(done) {
+  it('delayed request', function(done) {
     index.delayed({
       orders : [
       {
