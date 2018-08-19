@@ -66,7 +66,7 @@ var urlfactroy= function(type,id,order)
   fmt.url = base + fmt.url;
   return fmt;
 };
-//C:\Users\alice\.atom\packages\atom-wallaby\projects\77cea3325a3daa31\instrumented
+
 exports.delayed = function(event, context, callback) {
   var irs = fs.readFileSync("./ir.json","utf-8");
   irs = JSON.parse(irs);
