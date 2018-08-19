@@ -1,7 +1,7 @@
 version: 0.2
 env:
   parameter-store:
-    KEY: "ACCESS_TOKEN_FOR_REMO"
+    ACTK_REMO : "ACCESS_TOKEN_FOR_REMO"
 
 phases:
   install:
