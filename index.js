@@ -100,7 +100,7 @@ var getImpl = function(url,data) {
     var hash = encode().value(url);
     console.log(hash);
     if (!fs.existsSync(`./cache/${hash}.json`)) {
-      nrp({   //### need to change### Default behavior is as dummy mode(using cache file).
+      rp({   //### need to change### Default behavior is as dummy mode(using cache file).
         url : url,
         method: "get",
         headers : headers,
